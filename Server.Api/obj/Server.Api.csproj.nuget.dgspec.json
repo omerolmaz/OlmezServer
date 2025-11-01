@@ -1,0 +1,310 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Api\\Server.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Api\\Server.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Api\\Server.Api.csproj",
+        "projectName": "Server.Api",
+        "projectPath": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Api\\Server.Api.csproj",
+        "packagesPath": "C:\\Users\\ÖMERÖLMEZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ÖMERÖLMEZ\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Application\\Server.Application.csproj": {
+                "projectPath": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Application\\Server.Application.csproj"
+              },
+              "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Domain\\Server.Domain.csproj": {
+                "projectPath": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Domain\\Server.Domain.csproj"
+              },
+              "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Infrastructure\\Server.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Infrastructure\\Server.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Application\\Server.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Application\\Server.Application.csproj",
+        "projectName": "Server.Application",
+        "projectPath": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Application\\Server.Application.csproj",
+        "packagesPath": "C:\\Users\\ÖMERÖLMEZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ÖMERÖLMEZ\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Domain\\Server.Domain.csproj": {
+                "projectPath": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Domain\\Server.Domain.csproj"
+              },
+              "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Infrastructure\\Server.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Infrastructure\\Server.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "System.DirectoryServices": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "System.DirectoryServices.AccountManagement": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Domain\\Server.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Domain\\Server.Domain.csproj",
+        "projectName": "Server.Domain",
+        "projectPath": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Domain\\Server.Domain.csproj",
+        "packagesPath": "C:\\Users\\ÖMERÖLMEZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ÖMERÖLMEZ\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Infrastructure\\Server.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Infrastructure\\Server.Infrastructure.csproj",
+        "projectName": "Server.Infrastructure",
+        "projectPath": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Infrastructure\\Server.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ÖMERÖLMEZ\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ÖMERÖLMEZ\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Domain\\Server.Domain.csproj": {
+                "projectPath": "C:\\Users\\ÖMERÖLMEZ\\OneDrive - SiteTelekom\\Masaüstü\\Yeni klasör\\YeniServer\\Server.Domain\\Server.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
